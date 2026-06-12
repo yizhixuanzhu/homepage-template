@@ -2,6 +2,10 @@
 
 A bilingual (English / Chinese) static personal homepage template — no build step, no framework. Just HTML, CSS, and a little vanilla JavaScript. Designed for showcasing yourself to employers, collaborators, and recruiters.
 
+![Template preview](preview.png)
+
+**[Live demo →](https://yizhixuanzhu.github.io/homepage-template/)**
+
 ## Features
 
 - 🌐 **EN / 中 language toggle** — built-in bilingual support via a simple translation dictionary
