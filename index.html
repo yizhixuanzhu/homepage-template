@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Your Name is a [your field] professional focused on [specialty one], [specialty two], and [specialty three]."
+    >
+    <title>Your Name | Your Field &amp; Specialty</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <div class="atmosphere" aria-hidden="true">
+      <span class="dune dune-one"></span>
+      <span class="dune dune-two"></span>
+      <span class="dune dune-three"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Your Name homepage">
+        <span class="brand-mark photo-mark"><img src="profile_photo.svg" alt=""></span>
+        <span>
+          <strong>Your Name</strong>
+          <small>你的名字</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#experience" data-i18n="nav.experience">Experience</a>
+        <a href="index.html#skillkit" data-i18n="nav.skillkit">Skillkit</a>
+        <a href="education.html" data-i18n="nav.education">Education</a>
+        <a href="projects.html" data-i18n="nav.projects">Projects</a>
+        <a href="leadership.html" data-i18n="nav.leadership">Leadership</a>
+        <a href="highlights.html" data-i18n="nav.highlights">Highlights</a>
+      </nav>
+      <button class="lang-switch" type="button" data-lang-toggle>
+        <span data-lang-option="en">EN</span>
+        <span data-lang-option="zh">中</span>
+      </button>
+      <a class="nav-cta" href="#contact" aria-label="Contact Your Name">
+        <i data-lucide="send"></i>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero art-section">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Your Field / Your Specialty</p>
+          <h1 data-i18n="hero.name">Your Name</h1>
+          <div class="hero-lines">
+            <span data-i18n="hero.line1">Your first key strength.</span>
+            <span data-i18n="hero.line2">Your second key strength.</span>
+            <span data-i18n="hero.line3">Your third key strength.</span>
+          </div>
+          <div class="action-row" aria-label="Contact and profile actions">
+            <a class="button primary" href="mailto:your.email@example.com">
+              <i data-lucide="mail"></i>
+              <span data-i18n="hero.email">Email</span>
+            </a>
+            <a class="button" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin"></i>
+              LinkedIn
+            </a>
+            <a class="button icon-only" href="CV_English.pdf" target="_blank" aria-label="Open English CV">
+              <i data-lucide="file-text"></i>
+            </a>
+            <a class="button icon-only" href="CV_Chinese.pdf" target="_blank" aria-label="Open Chinese CV">
+              <i data-lucide="languages"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-stage" aria-label="Your Name profile visual">
+          <article class="portrait-device glass-panel">
+            <img src="profile_photo.svg" alt="Your Name professional portrait">
+            <div class="portrait-caption">
+              <span data-i18n="hero.caption.location">City One / City Two / City Three</span>
+              <strong data-i18n="hero.caption.role">Open to opportunities in [area one], [area two], and [area three].</strong>
+            </div>
+          </article>
+
+          <article class="floating-card glass-panel card-one">
+            <span class="icon-disc"><i data-lucide="graduation-cap"></i></span>
+            <p data-i18n="hero.card.one">A notable academic or professional credential you want to highlight first.</p>
+          </article>
+
+          <article class="floating-card glass-panel card-two dark-glass">
+            <span class="icon-disc"><i data-lucide="workflow"></i></span>
+            <p data-i18n="hero.card.automation">A quantified achievement, e.g. improved X by N%, supporting N+ daily users.</p>
+          </article>
+
+          <article class="floating-card glass-panel card-three">
+            <span class="icon-disc"><i data-lucide="chart-no-axes-combined"></i></span>
+            <p data-i18n="hero.card.strategy">A third standout capability or accomplishment worth showing on the hero.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section journey-panel" id="snapshot">
+        <div class="section-heading centered">
+          <p class="eyebrow" data-i18n="snapshot.eyebrow">Professional Snapshot</p>
+          <h2 data-i18n="snapshot.title">Highlights of Me.</h2>
+        </div>
+        <div class="snapshot-carousel" data-snapshot-carousel>
+          <button class="carousel-button carousel-prev" type="button" data-carousel-prev aria-label="Previous snapshot">
+            <i data-lucide="chevron-left"></i>
+          </button>
+          <div class="snapshot-viewport">
+            <div class="metric-grid snapshot-track" data-carousel-track>
+              <article class="metric-card glass-panel" data-snapshot-card>
+                <strong>Stat 1</strong>
+                <span data-i18n="snapshot.one">A short sentence expanding on this headline statistic or credential.</span>
+              </article>
+              <article class="metric-card glass-panel" data-snapshot-card>
+                <strong>80%</strong>
+                <span data-i18n="snapshot.automation">A short sentence explaining what this percentage represents.</span>
+              </article>
+              <article class="metric-card glass-panel" data-snapshot-card>
+                <strong>100+</strong>
+                <span data-i18n="snapshot.report">A short sentence explaining what this count represents.</span>
+              </article>
+              <article class="metric-card glass-panel" data-snapshot-card>
+                <strong>200k+</strong>
+                <span data-i18n="snapshot.fund">A short sentence explaining what this number represents.</span>
+              </article>
+            </div>
+          </div>
+          <button class="carousel-button carousel-next" type="button" data-carousel-next aria-label="Next snapshot">
+            <i data-lucide="chevron-right"></i>
+          </button>
+          <div class="carousel-dots" data-carousel-dots aria-label="Snapshot position"></div>
+        </div>
+      </section>
+
+      <section class="section split-section" id="experience">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow" data-i18n="experience.eyebrow">Experience</p>
+          <h2 data-i18n="experience.title">Theme one, theme two, theme three.</h2>
+          <p class="quiet-copy" data-i18n="experience.copy">One or two sentences summarizing the thread that runs through your work experience.</p>
+        </div>
+        <div class="timeline glass-panel">
+          <article class="timeline-item">
+            <div class="timeline-date">2024 / Present</div>
+            <div>
+              <h3 data-i18n="experience.job1.title">Company A &middot; Your Role</h3>
+              <ul class="clean-list">
+                <li data-i18n="experience.job1.1">Key responsibility or achievement one</li>
+                <li data-i18n="experience.job1.2">Key responsibility or achievement two</li>
+                <li data-i18n="experience.job1.3">Key responsibility or achievement three</li>
+                <li data-i18n="experience.job1.4">Key responsibility or achievement four</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2023</div>
+            <div>
+              <h3 data-i18n="experience.job2.title">Company B &middot; Your Role</h3>
+              <ul class="clean-list">
+                <li data-i18n="experience.job2.1">Key responsibility or achievement one</li>
+                <li data-i18n="experience.job2.2">Key responsibility or achievement two</li>
+                <li data-i18n="experience.job2.3">Key responsibility or achievement three</li>
+                <li data-i18n="experience.job2.4">Key responsibility or achievement four</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2023</div>
+            <div>
+              <h3 data-i18n="experience.job3.title">Company C &middot; Your Role</h3>
+              <ul class="clean-list">
+                <li data-i18n="experience.job3.1">Key responsibility or achievement one</li>
+                <li data-i18n="experience.job3.2">Key responsibility or achievement two</li>
+                <li data-i18n="experience.job3.3">Key responsibility or achievement three</li>
+                <li data-i18n="experience.job3.4">Key responsibility or achievement four</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div>
+              <h3 data-i18n="experience.job4.title">Company D &middot; Your Role</h3>
+              <ul class="clean-list">
+                <li data-i18n="experience.job4.1">Key responsibility or achievement one</li>
+                <li data-i18n="experience.job4.2">Key responsibility or achievement two</li>
+                <li data-i18n="experience.job4.3">Key responsibility or achievement three</li>
+                <li data-i18n="experience.job4.4">Key responsibility or achievement four</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skillkit">
+        <div class="section-heading centered">
+          <p class="eyebrow" data-i18n="skill.eyebrow">Skillkit</p>
+          <h2 data-i18n="skill.title">A one-line summary of what your skills enable.</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card glass-panel">
+            <span class="icon-disc"><i data-lucide="sigma"></i></span>
+            <h3 data-i18n="skill.quant.title">Skill Area 1</h3>
+            <p data-i18n="skill.quant.copy">Tool / Method / Tool / Method / Tool / Method</p>
+          </article>
+          <article class="skill-card glass-panel">
+            <span class="icon-disc"><i data-lucide="code-2"></i></span>
+            <h3 data-i18n="skill.data.title">Skill Area 2</h3>
+            <p data-i18n="skill.data.copy">Tool / Method / Tool / Method / Tool / Method</p>
+          </article>
+          <article class="skill-card glass-panel">
+            <span class="icon-disc"><i data-lucide="landmark"></i></span>
+            <h3 data-i18n="skill.finance.title">Skill Area 3</h3>
+            <p data-i18n="skill.finance.copy">Tool / Method / Tool / Method / Tool / Method</p>
+          </article>
+          <article class="skill-card glass-panel">
+            <span class="icon-disc"><i data-lucide="map"></i></span>
+            <h3 data-i18n="skill.visual.title">Skill Area 4</h3>
+            <p data-i18n="skill.visual.copy">Tool / Method / Tool / Method / Tool / Method</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-band glass-panel" id="contact">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">For roles, collaborations, or projects.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:your.email@example.com">
+            <i data-lucide="send"></i>
+            <span data-i18n="contact.email">Email</span>
+          </a>
+          <a class="button" href="tel:+10000000000">
+            <i data-lucide="phone"></i>
+            Phone 1
+          </a>
+          <a class="button" href="tel:+10000000001">
+            <i data-lucide="smartphone"></i>
+            Phone 2
+          </a>
+          <a class="button" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+            <i data-lucide="linkedin"></i>
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.text">Your Name &middot; Your Field &amp; Specialty</span>
+      <a href="#top" data-i18n="footer.top">Back to top</a>
+    </footer>
+  </body>
+</html>
